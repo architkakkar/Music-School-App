@@ -13,7 +13,10 @@ export default function Navbar({ className }: { className?: string }) {
   const [active, setActive] = useState<string | null>(null);
   return (
     <div
-      className={cn("fixed top-5 inset-x-0 max-w-2xl mx-auto z-50 border-zinc-800 border rounded-full w-4/5", className)}
+      className={cn(
+        "fixed top-5 inset-x-0 max-w-2xl mx-auto z-50 border-zinc-900 border-2 rounded-full w-4/5",
+        className
+      )}
     >
       <Menu setActive={setActive}>
         <Link href={"/"}>
