@@ -72,7 +72,7 @@ function UpcomingWebinars() {
           />
         </div>
 
-        <div className="mt-10 text-center">
+        <div className="mt-6 text-center">
           <Link href={"/webinars"}>
             <button className="border border-white px-6 py-5 rounded-full hover:text-gray-900 hover:bg-white text-sm">
               View All Webinars
