@@ -45,6 +45,7 @@ function WhyChooseUs() {
           ),
         },
       ];
+      
   return (
     <div>
         <StickyScroll content={content} />
