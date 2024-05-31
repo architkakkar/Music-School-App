@@ -35,7 +35,10 @@ export default function FeatureSection() {
       <div className="mt-10 mx-14">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
           {featuredCourses.map((featureCourse: Course) => (
-            <div className="flex justify-center items-center">
+            <div
+              key={featureCourse.id}
+              className="flex justify-center items-center"
+            >
               <BackgroundGradient className="rounded-[22px] max-w-sm px-5 py-6 sm:p-10 bg-white dark:bg-zinc-900 h-full">
                 <p className="text-base sm:text-xl text-black mb-2 dark:text-neutral-200">
                   {featureCourse.title}
