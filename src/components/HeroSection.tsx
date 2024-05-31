@@ -12,8 +12,8 @@ export default function HeroSection() {
           Master the art of music
         </h1>
         <p className="mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-xl mx-auto">
-          Dive into our comprehensice music courses and transform your musical
-          journey today. Whether you're a begineer or looking to refine your
+          Dive into our comprehensive music courses and transform your musical
+          journey today. Whether you are a begineer or looking to refine your
           skills join us to unlock your true potential.
         </p>
         <div className="mt-6">
