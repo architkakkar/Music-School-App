@@ -1,8 +1,9 @@
 "use client";
+
 import React from "react";
-import courseData from "@/data/music_courses.json";
 import Link from "next/link";
 import { BackgroundGradient } from "@/components/ui/Background-Gradient";
+import courseData from "@/data/music_courses.json";
 
 interface Course {
   id: number;

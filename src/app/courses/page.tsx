@@ -1,8 +1,8 @@
 "use client";
 
-import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-Card";
-import Image from "next/image";
 import React from "react";
+import Image from "next/image";
+import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-Card";
 import courseData from "@/data/music_courses.json";
 
 function page() {

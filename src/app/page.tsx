@@ -1,3 +1,5 @@
+"use client";
+
 import FeatureSection from "@/components/FeatureSection";
 import HeroSection from "@/components/HeroSection";
 import Instructors from "@/components/Instructors";

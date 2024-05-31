@@ -2,7 +2,7 @@
 
 import React from "react";
 import { WavyBackground } from "@/components/ui/Wavy-Background";
-import { AnimatedTooltip } from "./ui/Animated-Tooltip";
+import { AnimatedTooltip } from "@/components/ui/Animated-Tooltip";
 
 function Instructors() {
   const instructors = [
